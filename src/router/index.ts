@@ -1,3 +1,4 @@
+import Park from '@/views/Park.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
@@ -8,6 +9,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView
+    },
+    {
+      path: '/park/:lnglat',
+      name: 'park',
+      component: Park
     },
     {
       path: '/about',
