@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  BASE_URL: /green-code-moscow-hackathon-test/
+
 jobs:
   build:
     name: Build
